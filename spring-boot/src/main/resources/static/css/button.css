@@ -1,0 +1,15 @@
+.button1 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #3355fd #000 #6245a5;
+    border-radius: 6px;
+    background: linear-gradient(#2a0385, #4b05f6) #9416e3;
+    transition: 0.2s;
+}
+.button1:hover { background: linear-gradient(#1021b7, #6600f5) #9700f5; }
+.button1:active { background: linear-gradient(#4900f5, #6e5dba) #625485; }

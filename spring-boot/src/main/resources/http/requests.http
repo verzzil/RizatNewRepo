@@ -1,0 +1,15 @@
+GET localhost:8080/users/1
+
+###
+
+GET localhost:8080/users/2
+
+###
+GET localhost:8080/users
+
+###
+GET localhost:8080/papers/search?page=0&size=1
+
+
+###
+GET http://localhost:8080/papers/get-by-title?template=

@@ -1,0 +1,33 @@
+.main {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #4e4d53;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.lis {
+    float: left;
+}
+
+.lis a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.lis a:hover {
+    background-color: #111;
+}
+
+.lis a.active {
+    background-color: #3148ff;
+    color: white;
+}
